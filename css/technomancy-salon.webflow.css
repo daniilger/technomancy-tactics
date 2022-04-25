@@ -96,7 +96,10 @@ a:visited {
 .content {
   position: relative;
   z-index: 2;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: visible;
   width: auto;
   height: 125vh;
@@ -1701,7 +1704,7 @@ a:visited {
 }
 
 .about {
-  display: block;
+  display: none;
   overflow: auto;
   width: auto;
   height: 100vh;
